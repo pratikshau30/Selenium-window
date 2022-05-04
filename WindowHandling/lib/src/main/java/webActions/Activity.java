@@ -3,8 +3,6 @@ package webActions;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.ParseException;
-import java.util.Iterator;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -28,6 +26,10 @@ public class Activity {
 		driver = new RemoteWebDriver(new URL("http://localhost:8082/wd/hub"), capabilities);
 
 		return driver;
+	}
+
+	public static void snippet_2_2(WebDriver driver) throws InterruptedException {
+		// TODO
 	}
 
 	public static void snippet_3_2(WebDriver driver) {
@@ -63,6 +65,9 @@ public class Activity {
 		// Start the browser
 		WebDriver driver = activity.startBrowser();
 
+		// Uncomment for Milestone 2 Activity 2
+		// snippet_2_2(driver);
+
 		// Uncomment for Milestone 3 Activity 2
 		// snippet_3_2(driver);
 
@@ -70,7 +75,7 @@ public class Activity {
 		// snippet_7_2(driver);
 
 		// Uncomment for Milestone 7 Activity 3
-		snippet_7_3(driver);
+		// snippet_7_3(driver);
 	}
 
 }
