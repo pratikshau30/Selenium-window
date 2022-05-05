@@ -60,7 +60,7 @@ public class Activity {
 
 	public static void main(String[] args) throws InterruptedException, MalformedURLException, ParseException {
 
-		// Create the object of Wait class
+		// Create the object of Activity class
 		Activity activity = new Activity();
 
 		// Start the browser
