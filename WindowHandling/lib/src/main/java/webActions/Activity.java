@@ -37,6 +37,10 @@ public class Activity {
 		// TODO
 	}
 
+	public static void snippet_5_2(WebDriver driver) {
+		// TODO
+	}
+
 	public static void snippet_7_2(WebDriver driver) {
 		driver.get("https://crio-qkart-frontend-qa.vercel.app/login");
 
@@ -71,6 +75,9 @@ public class Activity {
 
 		// Uncomment for Milestone 3 Activity 2
 		// snippet_3_2(driver);
+
+		// Uncomment for Milestone 5 Activity 2
+		// snippet_5_2(driver);
 
 		// Uncomment for Milestone 7 Activity 2
 		// snippet_7_2(driver);
